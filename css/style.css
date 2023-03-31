@@ -1,0 +1,25 @@
+/* Created by: ZoiaB
+* Created on: Mar 2023
+* This CSS file defines the style for index.html
+* Unit3-02-HTML-VolumeTriangularPyramid
+*/
+
+body {
+  background-color: #d5205c;
+}
+
+h1 {
+  background-color: rgb(140, 160, 202);
+  color: hsl(333deg 93% 56%);
+  padding: 40px;
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+}
+
+p {
+  background-color: rgb(140, 160, 202);
+  color: #fff;
+}

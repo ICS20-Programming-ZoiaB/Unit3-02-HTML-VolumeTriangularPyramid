@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Meta data section -->
+    <meta charset="utf-8">
+    <meta name="description" content="Calculating volume of a triangular pyramid">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="ZoiaB">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-512x512.png">
+    <link rel="manifest" href="./fav_index/android-chrome-512x512.png">
+
+    <!-- S
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--Title-->
+    <title>Calculating volume of a triangular pyramid</title>
+  </head>
+  <body>
+    <!-- Link to JS file -->
+    <script src="./js/script.js"></script>
+
+    <!--MDl components-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Header-->
+    <h1>Calculating Volume of a Triangular Pyramid with User Input</h1>
+
+    <!-- Div for style -->
+    <div id="div-one">
+      <p>Are you in need of the volume of a triangluar pyramid? Calculating volume can be tricky, but worry no more because this web page will take your input and use the dimensions that you choose to do the calculations! If you want a refresher on the actual formula of a trapezoid, then refer to the image below.</p>
+    </div>
+
+    <!-- Image -->
+     <img src="./images/pyramid.png" alt="Volume formula" width="300" length="300">
+
+    <!--Another div for style-->
+    <div id="div-two">
+      <h3>Insert your input below!</h3>
+      <p> To calculate the volume of a triangluar pyramid, please fill in the text fields to set the height and the side lengths of a and b.</p>
+  
+    <!--Form for user input-->
+      <form action="javascript:areaSent()">
+        <label for="height">Height (cm)</label>
+        <input type="float" id="height" placeholder="Height...">
+        <br>
+        <br>
+        <label for="side-a">Length a (cm)</label>
+        <input type="float" id="side-a" placeholder="Side A length...">
+        <br>
+        <br>
+        <label for="side-b">Length b (cm)</label>
+        <input type="float" id="side-b" placeholder="Side B length...">
+        <br>
+        <br>
+  
+    <!--Raised button with ripple-->
+        <button class="mdl-button mdl-js-button-mdl-button-raised mdl-js-ripple-effect">
+          Click to calculate
+        </button>
+      </form>
+    </div>
+
+    <!--Final styled div-->
+    <div id="div-three">
+      <h3>Calculations:</h3>
+      <div id="display-results"></div>
+    </div>
+  </body>
+</html>
