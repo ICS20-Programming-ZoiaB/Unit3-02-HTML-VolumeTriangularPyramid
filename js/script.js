@@ -1,12 +1,12 @@
 // Copyright (c) 2023 ZoiaB All rights reserved
 //
 // Created by: ZoiaB
-// Created on: 03/30/2023
+// Created on: Mar 2023
 // This file contains the JS functions for index.html
 
 "use strict"
 /**
- * This function calculates the volume of a triangluar pyramid.
+ * This function calculates the volume of a triangular pyramid.
  */
 function areaSent() {
   

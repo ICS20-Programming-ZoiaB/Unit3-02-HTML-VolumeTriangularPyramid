@@ -15,34 +15,33 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/android-chrome-512x512.png">
     <link rel="manifest" href="./fav_index/android-chrome-512x512.png">
 
-    <!-- S
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-green.min.css" /> 
 
     <!--Title-->
     <title>Calculating volume of a triangular pyramid</title>
   </head>
   <body>
+    
     <!-- Link to JS file -->
     <script src="./js/script.js"></script>
-
-    <!--MDl components-->
-    <link rel="stylesheet" href="./css/style.css" />
 
     <!--Header-->
     <h1>Calculating Volume of a Triangular Pyramid with User Input</h1>
 
     <!-- Div for style -->
     <div id="div-one">
-      <p>Are you in need of the volume of a triangluar pyramid? Calculating volume can be tricky, but worry no more because this web page will take your input and use the dimensions that you choose to do the calculations! If you want a refresher on the actual formula of a trapezoid, then refer to the image below.</p>
+      <p>This webpage is able to calulate the volume of a triangular pyramid. If you would like to know the volume of your pyramid, simply enter the dimensions!</p>
     </div>
 
     <!-- Image -->
      <img src="./images/pyramid.png" alt="Volume formula" width="300" length="300">
 
-    <!--Another div for style-->
+    <!-- Second div for style-->
     <div id="div-two">
-      <h3>Insert your input below!</h3>
-      <p> To calculate the volume of a triangluar pyramid, please fill in the text fields to set the height and the side lengths of a and b.</p>
+      <h3>Insert your dimensions below!</h3>
+      <p> Here, you must enter the height, the length of side a and the length of side b.</p>
   
     <!--Form for user input-->
       <form action="javascript:areaSent()">
@@ -59,10 +58,10 @@
         <br>
         <br>
   
-    <!--Raised button with ripple-->
-        <button class="mdl-button mdl-js-button-mdl-button-raised mdl-js-ripple-effect">
-          Click to calculate
-        </button>
+    <!--Colored raised button -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+    Click to calculate
+    </button>
       </form>
     </div>
 
