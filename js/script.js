@@ -8,7 +8,7 @@
 /**
  * This function calculates the volume of a triangular pyramid.
  */
-function areaSent() {
+function volumeCalculate() {
   
   //declaration of variables
   let height = parseFloat(document.getElementById("height").value);
